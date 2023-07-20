@@ -1,10 +1,9 @@
 import SectionTitle from './SectionTitle';
 import Image from 'next/image';
 import Fotopie from '../../public/Fotopie.png';
-import ILoveIceCream from '../../public/iloveicecream.png';
+import ILoveIceCream from '../../public/ILoveIceCream.png';
 import MyPortfolio from '../../public/MyPortfolio.jpg';
-import FindPrompts from '../../public/findPrompts.png';
-import { AiOutlineYoutube } from 'react-icons/ai';
+import FindPrompts from '../../public/FindPrompts.png';
 import { TbBrandGithub } from 'react-icons/tb';
 import { RxOpenInNewWindow } from 'react-icons/rx';
 
