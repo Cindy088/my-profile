@@ -18,9 +18,9 @@ const Lenovo = () => {
           <span className='text-textGreen mt-1'>
             <TiArrowForward />
           </span>
-          Managed over 500 PC purchase orders per month and coordinated with
-          internal stakeholders to ensure timely and accurate delivery of
-          orders.
+          Used SAP system to manage over 500 PC purchase orders per month and
+          coordinated with internal stakeholders to ensure timely and accurate
+          delivery of orders.
         </li>
       </ul>
       <br />
@@ -33,9 +33,10 @@ const Lenovo = () => {
           <span className='text-textGreen mt-1'>
             <TiArrowForward />
           </span>
-          Scheduled agendas, budget planning and business travel plans for the
-          Senior Vice President’s office and provide support for company
-          conferences and events.
+          Managed Lenovo ERP system and microsoft 365 software to schedule
+          agendas, budget planning and business travel plans for the Senior Vice
+          President’s office and provide support for company conferences and
+          events.
         </li>
       </ul>
     </motion.div>
