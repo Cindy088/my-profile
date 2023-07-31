@@ -80,7 +80,7 @@ const Experience = () => {
           >
             Master
           </li>
-          <li
+          {/* <li
             onClick={handleLenovoCompany}
             className={`${
               LenovoStatus
@@ -89,11 +89,11 @@ const Experience = () => {
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8`}
           >
             Lenovo
-          </li>
+          </li> */}
         </ul>
 
         {/* only render the component that is true */}
-        {LenovoStatus && <Lenovo />}
+        {/* {LenovoStatus && <Lenovo />} */}
         {MasterStatus && <Master />}
         {AtlasStatus && <Atlas />}
         {FotoPieStatus && <FotoPie />}

@@ -16,9 +16,8 @@ const About = () => {
           {/* Introduction */}
           <p>
             Hello! My name is Cindy and I enjoy creating things that live on the
-            Internet. I am a Full Stack Developer with over one year web
-            development experience and a background in accounting and admin
-            management.
+            Internet. I am a QA Engineer and Full Stack Developer with over one
+            year web development experience and a background in accounting.
           </p>
           <p>
             In the past few months, I have built a few team and individual full
@@ -120,7 +119,7 @@ const About = () => {
               <span className='text-textGreen'>
                 <AiFillThunderbolt />
               </span>
-              Jest
+              Jest/Mocha
             </li>
             <li className='flex items-center gap-2'>
               <span className='text-textGreen'>
@@ -133,6 +132,48 @@ const About = () => {
                 <AiFillThunderbolt />
               </span>
               Agile
+            </li>
+            <li className='flex items-center gap-2'>
+              <span className='text-textGreen'>
+                <AiFillThunderbolt />
+              </span>
+              Linux
+            </li>
+            <li className='flex items-center gap-2'>
+              <span className='text-textGreen'>
+                <AiFillThunderbolt />
+              </span>
+              SQL
+            </li>
+            <li className='flex items-center gap-2'>
+              <span className='text-textGreen'>
+                <AiFillThunderbolt />
+              </span>
+              Selenium
+            </li>
+            <li className='flex items-center gap-2'>
+              <span className='text-textGreen'>
+                <AiFillThunderbolt />
+              </span>
+              Cypress
+            </li>
+            <li className='flex items-center gap-2'>
+              <span className='text-textGreen'>
+                <AiFillThunderbolt />
+              </span>
+              JMeter
+            </li>
+            <li className='flex items-center gap-2'>
+              <span className='text-textGreen'>
+                <AiFillThunderbolt />
+              </span>
+              Jira/Azure
+            </li>
+            <li className='flex items-center gap-2'>
+              <span className='text-textGreen'>
+                <AiFillThunderbolt />
+              </span>
+              AzureDevops
             </li>
           </ul>
         </div>
