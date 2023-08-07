@@ -7,10 +7,10 @@ import Atlas from './works/Atlas';
 
 const Experience = () => {
   // set state
-  const [LenovoStatus, setLenovoStatus] = useState(false);
+  const [LenovoStatus, setLenovoStatus] = useState(true);
   const [MasterStatus, setMasterStatus] = useState(false);
   const [AtlasStatus, setAtlasStatus] = useState(false);
-  const [FotoPieStatus, setFotoPieStatus] = useState(true);
+  const [FotoPieStatus, setFotoPieStatus] = useState(false);
 
   // set onClick handler
   const handleLenovoCompany = () => {
@@ -50,6 +50,16 @@ const Experience = () => {
 
       <div className='w-full mt-10 flex flex-col md:flex-row gap-16'>
         <ul className='md:w-32 flex flex-col'>
+          <li
+            onClick={handleLenovoCompany}
+            className={`${
+              LenovoStatus
+                ? 'border-l-textGreen text-textGreen'
+                : 'border-l-hoverColor text-textDark'
+            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8`}
+          >
+            Cyberay
+          </li>
           <li
             onClick={handleFotoPieCompany}
             className={`${
@@ -93,7 +103,7 @@ const Experience = () => {
         </ul>
 
         {/* only render the component that is true */}
-        {/* {LenovoStatus && <Lenovo />} */}
+        {LenovoStatus && <Lenovo />}
         {MasterStatus && <Master />}
         {AtlasStatus && <Atlas />}
         {FotoPieStatus && <FotoPie />}

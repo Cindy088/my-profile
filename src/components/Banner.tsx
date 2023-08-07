@@ -32,7 +32,7 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        Aspiring QA Engineer and Full Stack developer with over one year working experience in web development. I possess a strong foundation in front-end and back-end tech stacks and delivered multiple projects.
+        Aspiring QA Tester and Full Stack developer with over one year working experience in quality assurance and web development. I possess a strong foundation in quality assurance, front-end and back-end tech stacks and delivered multiple projects.
         <br />
         <a href="https://www.linkedin.com/in/cindy-zhang-au/" target="_blank">
           <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">

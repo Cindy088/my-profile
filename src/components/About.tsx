@@ -16,12 +16,13 @@ const About = () => {
           {/* Introduction */}
           <p>
             Hello! My name is Cindy and I enjoy creating things that live on the
-            Internet. I am a QA Engineer and Full Stack Developer with over one
-            year web development experience and a background in accounting.
+            Internet. I am a QA Tester and Full Stack Developer with over one
+            year quality assurance and web development experience.
           </p>
           <p>
-            In the past few months, I have built a few team and individual full
-            stack projects, which showcasing my ability to adapt and learn{' '}
+            In the past few months, I involved in the quality assurance and
+            development of a few team and individual full stack projects, which
+            showcasing my ability to adapt and learn{' '}
             <span className='text-textGreen'>new skills and technologies.</span>
           </p>
           <p>
@@ -65,6 +66,12 @@ const About = () => {
                 <AiFillThunderbolt />
               </span>
               Node.js
+            </li>
+            <li className='flex items-center gap-2'>
+              <span className='text-textGreen'>
+                <AiFillThunderbolt />
+              </span>
+              Nest.js
             </li>
 
             <li className='flex items-center gap-2'>
@@ -119,7 +126,7 @@ const About = () => {
               <span className='text-textGreen'>
                 <AiFillThunderbolt />
               </span>
-              Jest/Mocha
+              Agile
             </li>
             <li className='flex items-center gap-2'>
               <span className='text-textGreen'>
@@ -131,7 +138,7 @@ const About = () => {
               <span className='text-textGreen'>
                 <AiFillThunderbolt />
               </span>
-              Agile
+              Jest
             </li>
             <li className='flex items-center gap-2'>
               <span className='text-textGreen'>
@@ -167,7 +174,7 @@ const About = () => {
               <span className='text-textGreen'>
                 <AiFillThunderbolt />
               </span>
-              Jira/Azure
+              Jira
             </li>
             <li className='flex items-center gap-2'>
               <span className='text-textGreen'>
